@@ -2,7 +2,7 @@
 from training import train_and_evaluate_models
 from preprocessing import load_and_preprocess_data
 
-file_path = 'C:\\Users\\carla\\PycharmProjects\\pythonProject\\London Property Listings Dataset.csv'
+file_path = '/Users/carla/PycharmProjects/pythonProject/London Property Listings Dataset.csv'
 
 # Preprocessing
 X_train_prepared, X_val_prepared, y_train, y_val, preprocessor, X_val_raw = load_and_preprocess_data(file_path)
